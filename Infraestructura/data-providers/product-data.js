@@ -139,157 +139,296 @@ const ProductData = {
     }
   ],
   
-  // REFRESCOS
-  refrescos: [
-    {
-      id: '080ba284-f09c-4755-a080-830ce876327c',
-      nombre: 'RED BULL 250ML',
-      categoria: 'refresco',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/redbull.webp',
-      precio: '$95.00'
-    },
-    {
-      id: '1061ed61-704f-47f5-a817-5794fda97f4e',
-      nombre: 'VASO DE JUGO ARANDANO 355ML',
-      categoria: 'jugo',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/vaso-arandano.webp',
-      precio: '$55.00'
-    },
-    {
-      id: '12cf5d2d-8ae1-4068-89e1-a9216de9e874',
-      nombre: 'JARRA DE JUGO MANGO',
-      categoria: 'jugo',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/jumex-mango.webp',
-      precio: '$165.00'
-    },
-    {
-      id: '19b835cc-d47a-4dd6-8bd9-535adde425d9',
-      nombre: 'JARRA DE JUGO UVA LT',
-      categoria: 'jugo',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/jumex-uva.webp',
-      precio: '$165.00'
-    },
-    {
-      id: '1efe0ce2-c1be-4d64-8a93-4ebe23bce53d',
-      nombre: 'FANTA 355ML',
-      categoria: 'refresco',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/fanta.webp',
-      precio: '$55.00'
-    },
-    {
-      id: '1fe2f634-8c92-421c-a413-bcceaa4cad64',
-      nombre: 'VASO DE JUGO UVA 355ML',
-      categoria: 'jugo',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/vaso-uva.webp',
-      precio: '$55.00'
-    },
-    {
-      id: '2023f02c-824d-44e9-8fe1-b7917e3ed661',
-      nombre: 'SQUIRT 355ML',
-      categoria: 'refresco',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/squirt.webp',
-      precio: '$55.00'
-    },
-    {
-      id: '2fef8566-db5b-4d6b-abb6-d8c4ae862fcc',
-      nombre: 'JARRA DE JUGO ARANDANO',
-      categoria: 'jugo',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/jumex-arandano.webp',
-      precio: '$165.00'
-    },
-    {
-      id: '37b92395-e398-4a5c-a062-a65cc8eaf8e0',
-      nombre: 'COCA COLA 355ML',
-      categoria: 'refresco',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/cocacola.webp',
-      precio: '$55.00'
-    },
-    {
-      id: '49307ef7-6fd2-4dad-97f1-c0fd189d07cf',
-      nombre: 'JARRA DE JUGO PIÑA LT',
-      categoria: 'jugo',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/jumex-pina.webp',
-      precio: '$165.00'
-    },
-    {
-      id: '4f9f57c6-5697-4e9a-a75d-e75346e01656',
-      nombre: 'VASO DE JUGO PIÑA 355ML',
-      categoria: 'jugo',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/vaso-pina.webp',
-      precio: '$55.00'
-    },
-    {
-      id: '59da687b-ba60-444a-9209-5b7fa3307a2f',
-      nombre: 'VASO DE JUGO MANGO 355ML',
-      categoria: 'jugo',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/vaso-mango.webp',
-      precio: '$55.00'
-    }
-  ],
+// REFRESCOS
+refrescos: [
+  {
+    id: '1',
+    nombre: 'COCA COLA 355ML',
+    categoria: 'refresco',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/cocacola.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '2',
+    nombre: 'FANTA 355ML',
+    categoria: 'refresco',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/fanta.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '3',
+    nombre: 'MANZANA 355ML',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/manzana.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '4',
+    nombre: 'MINERAL 355ML',
+    categoria: 'refresco',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/mineral.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '5',
+    nombre: 'SQUIRT 355ML',
+    categoria: 'refresco',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/squirt.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '6',
+    nombre: 'QUINA 355ML',
+    categoria: 'refresco',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/quina.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '7',
+    nombre: 'AGUA 355ML',
+    categoria: 'refresco',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/agua.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '8',
+    nombre: 'RED BULL 250ML',
+    categoria: 'refresco',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/redbull.webp',
+    precio: '$95.00'
+  },
+  {
+    id: '9',
+    nombre: 'BOOST 235ML',
+    categoria: 'refresco',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/boost.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '10',
+    nombre: 'JARRA DE JUGO PIÑA LT',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/jumex-pina.webp',
+    precio: '$165.00'
+  },
+  {
+    id: '11',
+    nombre: 'JARRA DE JUGO UVA LT',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/jumex-uva.webp',
+    precio: '$165.00'
+  },
+  {
+    id: '12',
+    nombre: 'JARRA DE JUGO NARANJA',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/jumex-naranja.webp',
+    precio: '$165.00'
+  },
+  {
+    id: '13',
+    nombre: 'JARRA DE JUGO ARÁNDANO',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/jumex-arandano.webp',
+    precio: '$165.00'
+  },
+  {
+    id: '14',
+    nombre: 'JARRA DE JUGO DURAZNO',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/jumex-durazno.webp',
+    precio: '$165.00'
+  },
+  {
+    id: '15',
+    nombre: 'JARRA DE JUGO MANGO',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/jumex-mango.webp',
+    precio: '$165.00'
+  },
+  {
+    id: '16',
+    nombre: 'VASO DE JUGO PIÑA 355ML',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/vaso-pina.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '17',
+    nombre: 'VASO DE JUGO UVA 355ML',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/vaso-uva.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '18',
+    nombre: 'VASO DE JUGO NARANJA 355ML',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/vaso-naranja.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '19',
+    nombre: 'VASO DE JUGO ARÁNDANO 355ML',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/vaso-arandano.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '20',
+    nombre: 'VASO DE JUGO DURAZNO 355ML',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/vaso-durazno.webp',
+    precio: '$55.00'
+  },
+  {
+    id: '21',
+    nombre: 'VASO DE JUGO MANGO 355ML',
+    categoria: 'jugo',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/refrescos/vaso-mango.webp',
+    precio: '$55.00'
+  }
+],
+
   
-  // CERVEZAS
-  cervezas: [
-    {
-      id: '06bd71d5-e1c3-45c5-a55c-46002e3151f7',
-      nombre: 'TECATE ROJA',
-      categoria: 'cerveza',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/tecate-roja.webp',
-      precio: '$75.00'
-    },
-    {
-      id: '0e3fe748-3620-4478-8043-4475c6698d52',
-      nombre: 'ULTRA',
-      categoria: 'cerveza',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/ultra.webp',
-      precio: '$75.00'
-    },
-    {
-      id: '194e4a0f-2b5d-434b-8bdb-98873b797f3c',
-      nombre: 'TECATE ÁMBAR',
-      categoria: 'cerveza',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/tecate-ambar.webp',
-      precio: '$75.00'
-    },
-    {
-      id: '32808649-760d-4001-b23e-8da5450cafa2',
-      nombre: 'HEINEKEN',
-      categoria: 'cerveza',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/heineken.webp',
-      precio: '$75.00'
-    },
-    {
-      id: '4f3bcfce-c7dc-45bd-8686-a88936dbdd65',
-      nombre: 'XX ULTRA',
-      categoria: 'cerveza',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/xx-ultra.webp',
-      precio: '$75.00'
-    },
-    {
-      id: '5430c691-5b44-4410-84ce-37a1414dd335',
-      nombre: 'XX ÁMBAR',
-      categoria: 'cerveza',
-      tipo_contenido: 'imagen',
-      ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/xx-ambar.webp',
-      precio: '$75.00'
-    }
-  ],
+// CERVEZAS
+cervezas: [
+  {
+    id: '1',
+    nombre: 'INDIO',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/indio.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '2',
+    nombre: 'TECATE ROJA',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/tecate-roja.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '3',
+    nombre: 'TECATE LIGHT',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/tecate-ligth.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '4',
+    nombre: 'TECATE ÁMBAR',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/tecate-ambar.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '5',
+    nombre: 'XX ÁMBAR',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/xx-ambar.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '6',
+    nombre: 'XX LAGER',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/laguer.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '7',
+    nombre: 'BOHEMIA CLARA',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/bohemia-clara.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '8',
+    nombre: 'BOHEMIA OSCURA',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/bohemia-oscura.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '9',
+    nombre: 'ULTRA',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/ultra.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '10',
+    nombre: 'XX ULTRA',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    // Aunque en el SQL se usa la imagen de "xx-ambar", lo dejamos igual seg&#250;n lo recibido:
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/xx-ambar.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '11',
+    nombre: 'HEINEKEN',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/heineken.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '12',
+    nombre: 'HEINEKEN 00',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/00-heineken.webp',
+    precio: '$75.00'
+  },
+  {
+    id: '13',
+    nombre: 'TARRO DE CERVEZA CLARO LT',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/tarro-claro.webp',
+    precio: '$110.00'
+  },
+  {
+    id: '14',
+    nombre: 'TARRO DE CERVEZA OSCURO LT',
+    categoria: 'cerveza',
+    tipo_contenido: 'imagen',
+    ruta_archivo: 'https://udtlqjmrtbcpdqknwuro.supabase.co/storage/v1/object/public/productos/imagenes/bebidas/cervezas/tarro-oscuro.webp',
+    precio: '$110.00'
+  }
+],
+
   
   // LICORES CATEGORÍAS
   licoresCategories: [
